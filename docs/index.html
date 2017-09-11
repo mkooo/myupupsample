@@ -5,16 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>upupサンプル</h1>
-    <p>ver.5</p>
+    <p>ver.6</p>
     
     <script src="upup.min.js"></script>
     <script>
       UpUp.start({
-        'content-url': 'offline.html'
+        'content-url': 'offline.html',
+        'assets': ['style.css'],
+        'service-worker-url': 'upup.sw.min.js'
       });
     </script>
 
